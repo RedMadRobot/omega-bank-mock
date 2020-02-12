@@ -1,0 +1,1188 @@
+{
+    "data": {
+        "partners": [
+            {
+                "id": "TINKOFF",
+                "name": "Тинькофф",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/tinkoff.png",
+                "url": "http://www.tinkoff.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально",
+                "limitations": "За один раз: 1&nbsp;000&nbsp;000&nbsp;р.,  20&nbsp;000&nbsp;$, 20&nbsp;000&nbsp;€<br>За сутки: 5&nbsp;000&nbsp;000&nbsp;р., 85&nbsp;000&nbsp;$, 85&nbsp;000&nbsp;€",
+                "pointType": "Банкоматы",
+                "externalPartnerId": "960",
+                "description": "Номер карты или договора, QR-код договора либо сама карта.<br>Чтобы пополнить счет по&nbsp;QR-коду, откройте QR-код в&nbsp;приложении, выберите в&nbsp;меню банкомата соответствующий пункт и поднесите QR-код к сканеру. Валютный счет можно пополнить только при наличии самой карты, требуется ввод ПИН-кода.",
+                "moneyMin": 100,
+                "moneyMax": 1000000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 100,
+                        "max": 1000000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 50,
+                        "max": 20000
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 50,
+                        "max": 20000
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 5000000
+                    }
+                ]
+            },
+            {
+                "id": "MTS",
+                "name": "МТС",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/mts.png",
+                "url": "http://www.mts.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз:<br> через кассу до 500 000 рублей<br>через терминал до 15 000 руб<br>  Пополнение осуществляется через кассу салона, терминал или банкомат МТС-Банка",
+                "pointType": "Кассы, терминалы, банкоматы в салонах",
+                "externalPartnerId": "232",
+                "description": "Номер карты или договора. Паспорт РФ для оплаты на кассе.<br>Сообщите&nbsp;кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.<br> Вставлять карту в банкомат или терминал не&nbsp;нужно&nbsp;&mdash; введите номер карты, договора или телефона. Для пополнения без комиссии в&nbsp;разделе &laquo;Услуги банка&raquo; выберите &laquo;Тинькофф Банк&raquo;. ",
+                "moneyMin": 10,
+                "moneyMax": 500000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 500000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 500000
+                    }
+                ]
+            },
+            {
+                "id": "MFR",
+                "name": "Мегафон",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/megafon.png",
+                "url": "http://megafon.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 200&nbsp;000&nbsp;р.<br>Москва, Санкт-Петербург: 400 000 р.<br> Пополнение только через кассу",
+                "pointType": "Кассы в салонах",
+                "externalPartnerId": "005",
+                "description": "Номер карты, телефона или договора, паспорт гражданина&nbsp;РФ.<br>Сообщите&nbsp;кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.",
+                "moneyMin": 10,
+                "moneyMax": 200000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 200000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 200000
+                    }
+                ]
+            },
+            {
+                "id": "BEELINE",
+                "name": "Билайн",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/beeline.png",
+                "url": "http://beeline.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 500&nbsp;000&nbsp;р.<br>За сутки: 500&nbsp;000&nbsp;р.<br>За месяц: 1&nbsp;000&nbsp;000&nbsp;р. в&nbsp;сумме через все точки пополнения системы «Золотая Корона»",
+                "pointType": "Кассы в салонах",
+                "externalPartnerId": "003",
+                "description": "Номер карты, телефона или договора, паспорт гражданина&nbsp;РФ.<br>Сообщите&nbsp;кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.",
+                "moneyMin": 10,
+                "moneyMax": 500000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 500000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 500000
+                    }
+                ]
+            },
+            {
+                "id": "MKB",
+                "name": "МКБ",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/mkb.png",
+                "url": "http://www.mkb.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "Для терминалов:<br>За один раз:<br>15&nbsp;000&nbsp;р. для кредитной&nbsp;карты без&nbsp;ввода&nbsp;ПИН<br>40&nbsp;000&nbsp;р. при&nbsp;вводе&nbsp;ПИН<br>За сутки: 100&nbsp;000&nbsp;р.<br>Для банкоматов при вводе ПИН:<br>За раз: 100&nbsp;000&nbsp;р.<br>За сутки, месяц: ограничения нет.",
+                "pointType": "Платежные терминалы и&nbsp;банкоматы",
+                "externalPartnerId": "220",
+                "description": "Для пополнения кредитной карты — номер карты или договора. Чтобы пополнить дебетовую карту или вклад, вставьте карту в&nbsp;терминал и введите ПИН-код. Для пополнения в&nbsp;банкомате - вставьте карту и введите ПИН-код.",
+                "moneyMin": 10,
+                "moneyMax": 300000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 300000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 300000
+                    }
+                ]
+            },
+            {
+                "id": "ELEXNET",
+                "name": "Элекснет",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/elexnet.png",
+                "url": "http://elecsnet.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 15&nbsp;000&nbsp;р.<br>За сутки:<br>90&nbsp;000&nbsp;р. через один и тот же терминал<br>150&nbsp;000&nbsp;р. в&nbsp;сумме через все терминалы сети<br>За неделю: 300&nbsp;000&nbsp;р. в&nbsp;сумме через все терминалы сети",
+                "pointType": "Платежные терминалы",
+                "externalPartnerId": "001,111",
+                "description": "Для пополнения кредитной карты — номер карты или договора. Чтобы пополнить дебетовую карту или вклад, вставьте карту в&nbsp;терминал и введите ПИН-код. Для пополнения в&nbsp;банкомате - вставьте карту и введите ПИН-код.",
+                "moneyMin": 10,
+                "moneyMax": 15000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 90000
+                    }
+                ]
+            },
+            {
+                "id": "CYBERPLAT",
+                "name": "КиберПлат",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/cyberplat.png",
+                "url": "http://www.cyberplat.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 15&nbsp;000&nbsp;р.<br>За месяц по одному и тому же номеру карты или номеру договора: до 20 платежей не&nbsp;более 150&nbsp;000&nbsp;р. в&nbsp;сумме через все точки: Comepay, CyberPlat, Форвард Мобайл, ЦУП",
+                "pointType": "Платежные терминалы",
+                "externalPartnerId": "103",
+                "description": "Номер карты, телефона или договора, паспорт гражданина&nbsp;РФ.<br>Сообщите&nbsp;кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.",
+                "moneyMin": 10,
+                "moneyMax": 15000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 150000
+                    }
+                ]
+            },
+            {
+                "id": "PSCB",
+                "name": "ПСКБ",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/pskb.png",
+                "url": "http://www.pscb.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 15&nbsp;000&nbsp;р.<br>Только для кредитных карт",
+                "pointType": "Платежные терминалы",
+                "externalPartnerId": "227",
+                "description": "Номер карты или договора",
+                "moneyMin": 10,
+                "moneyMax": 15000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 50000
+                    }
+                ]
+            },
+            {
+                "id": "MOSOBLBANK",
+                "name": "МОСОБЛБАНК",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/mosoblbank.png",
+                "url": "http://mosoblbank.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За&nbsp;один раз 15&nbsp;000&nbsp;р.<br>Только для кредитных карт",
+                "pointType": "Платежные терминалы",
+                "externalPartnerId": "217",
+                "description": "Номер карты или договора",
+                "moneyMin": 10,
+                "moneyMax": 15000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": []
+            },
+            {
+                "id": "BCS BANK",
+                "name": "БКС Премьер",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/bks-premier.png",
+                "url": "https://bcs-bank.com/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: от 5&nbsp;000&nbsp;$ или 5&nbsp;000&nbsp;€ без&nbsp;ограничений по максимальной&nbsp;сумме.<br>Пополнение только в&nbsp;валюте.",
+                "pointType": "Кассы",
+                "externalPartnerId": "235",
+                "description": "Номер карты или договора, удостоверение&nbsp;личности.<br>Пополнить счет в иностранной валюте может только владелец счета.",
+                "moneyMin": 0,
+                "moneyMax": 0,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 5000,
+                        "max": 900000
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 5000,
+                        "max": 900000
+                    }
+                ],
+                "dailyLimits": []
+            },
+            {
+                "id": "SVYAZNOY",
+                "name": "Связной",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/svyaznoy.png",
+                "url": "http://www.svyaznoy.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br> Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.<br> Взимается комиссия согласно тарифам Банка.",
+                "limitations": "За один раз:<br>15&nbsp;000&nbsp;р. через терминал<br>500&nbsp;000&nbsp;р. через кассу<br>За сутки: 120&nbsp;000&nbsp;р. через один и&nbsp;тот же терминал",
+                "pointType": "Платежные терминалы и&nbsp;кассы в&nbsp;салонах",
+                "externalPartnerId": "245",
+                "description": "Номер карты или договора. Дополнительно для пополнения через&nbsp;кассу — паспорт&nbsp;гражданина&nbsp;РФ.<br>Сообщите кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.",
+                "moneyMin": 10,
+                "moneyMax": 500000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 500000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [],
+                "brand": {
+                    "name": "Связной ",
+                    "baseTextColor": "ffffff",
+                    "logo": "https://static.tinkoff.ru/brands/svayznoy-ru.png",
+                    "id": "242",
+                    "roundedLogo": true,
+                    "baseColor": "4c1e87",
+                    "logoFile": "svayznoy-ru.png"
+                }
+            },
+            {
+                "id": "GOROD",
+                "name": "Золотая Корона",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/gold-crown.png",
+                "url": "https://koronapay.com/credit/Pages/default.aspx",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 100&nbsp;000&nbsp;р. или 600&nbsp;000&nbsp;р. в&nbsp;зависимости от&nbsp;ограничений банка-партнера системы «Золотая&nbsp;Корона»<br>За месяц: 7&nbsp;500&nbsp;000&nbsp;р.",
+                "pointType": "Пункты осуществления переводов",
+                "externalPartnerId": "003",
+                "description": "Номер карты, телефона или договора, паспорт гражданина&nbsp;РФ.<br>Сообщите&nbsp;кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.",
+                "moneyMin": 10,
+                "moneyMax": 600000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 600000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 600000
+                    }
+                ]
+            },
+            {
+                "id": "CONTACT",
+                "name": "Contact",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/contact.png",
+                "url": "http://www.contact-sys.com/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За сутки:<br>Рубли — без ограничений.<br>Валюта: до&nbsp;5&nbsp;000&nbsp;$ или эквивалентная сумма в&nbsp;евро.",
+                "pointType": "Пункты осуществления переводов",
+                "externalPartnerId": "226",
+                "description": "Номер карты или договора, паспорт гражданина&nbsp;РФ.<br>Сообщите&nbsp;кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.",
+                "moneyMin": 1,
+                "moneyMax": 9000000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 1,
+                        "max": 9000000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 2,
+                        "max": 5000
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 2,
+                        "max": 4300
+                    }
+                ],
+                "dailyLimits": []
+            },
+            {
+                "id": "UNISTREAM",
+                "name": "Юнистрим",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/unistream.png",
+                "url": "http://unistream.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз:<br>Рубли — до 900&nbsp;000.<br>Валюта: до 5&nbsp;000&nbsp;$ или 4 000&nbsp;евро.",
+                "pointType": "Пункты осуществления переводов",
+                "externalPartnerId": "204",
+                "description": "Номер карты, телефона или договора, паспорт гражданина&nbsp;РФ.<br>Сообщите&nbsp;кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.",
+                "moneyMin": 100,
+                "moneyMax": 900000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 100,
+                        "max": 900000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 5,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 5,
+                        "max": 15000
+                    }
+                ],
+                "dailyLimits": []
+            },
+            {
+                "id": "BINBANK",
+                "name": "Банк Открытие",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/otkrytie1.png",
+                "url": "https://www.open.ru",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 85&nbsp;000&nbsp;р.<br>За месяц: 599&nbsp;000&nbsp;р.<br>Если превысить лимит, банкомат вернет деньги обратно. ",
+                "pointType": "Банкоматы",
+                "externalPartnerId": "529",
+                "description": "Банкоматы Банка Открытие. Чтобы пополнить счет, вставьте карту в банкомат и&nbsp;введите ПИН-код.",
+                "moneyMin": 100,
+                "moneyMax": 85000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 100,
+                        "max": 85000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 599000
+                    }
+                ]
+            },
+            {
+                "id": "TELEPAY",
+                "name": "TelePay",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/telepay.png",
+                "url": "http://www.telepayural.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 15&nbsp;000&nbsp;р.",
+                "pointType": "Платежные терминалы",
+                "externalPartnerId": "216",
+                "description": "Номер карты или договора",
+                "moneyMin": 10,
+                "moneyMax": 15000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": []
+            },
+            {
+                "id": "ION",
+                "name": "НОУ-ХАУ",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/ion.png",
+                "url": "http://xn----8sb1bezcm.xn--p1ai/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "В отдельных случаях срок зачисления платежа может составлять 1&nbsp;рабочий день.",
+                "limitations": "Не более 15 000 руб. за один раз;",
+                "pointType": "Кассы в салонах и платежные терминалы",
+                "externalPartnerId": "103",
+                "description": "Номер карты или договора",
+                "moneyMin": 10,
+                "moneyMax": 150000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 150000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0
+                    }
+                ],
+                "dailyLimits": []
+            },
+            {
+                "id": "TELEFON.RU",
+                "name": "Телефон.ру",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/telefon-ru-logo.png",
+                "url": "http://telefon.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За&nbsp;один час: один платеж до&nbsp;100&nbsp;000&nbsp;р.<br>За&nbsp;сутки: 200&nbsp;000&nbsp;р.<br>За&nbsp;месяц: 1&nbsp;000&nbsp;000&nbsp;р. в&nbsp;сумме через все точки пополнения системы &laquo;Золотая Корона&raquo;",
+                "pointType": "Кассы в салонах",
+                "externalPartnerId": "215",
+                "description": "Номер карты, телефона или договора, паспорт гражданина&nbsp;РФ.<br>Сообщите&nbsp;кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.",
+                "moneyMin": 10,
+                "moneyMax": 100000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 100000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 200000
+                    }
+                ]
+            },
+            {
+                "id": "MTSBank",
+                "name": "МТС-Банк",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/mts.png",
+                "url": "https://www.mtsbank.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 15&nbsp;000&nbsp;р.",
+                "pointType": "Платежные терминалы и&nbsp;банкоматы",
+                "externalPartnerId": "232",
+                "description": "Вставлять карту не&nbsp;нужно&nbsp;&mdash; введите номер карты, договора или телефона. Для пополнения без комиссии в&nbsp;разделе &laquo;Услуги банка&raquo; выберите &laquo;Тинькофф Банк&raquo;.",
+                "moneyMin": 10,
+                "moneyMax": 15000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": []
+            },
+            {
+                "id": "AMIGO",
+                "name": "Амиго",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/amigo.png",
+                "url": "http://amigopay.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 15&nbsp;000&nbsp;р.",
+                "pointType": "Платежные терминалы и&nbsp;кассы",
+                "externalPartnerId": "216",
+                "description": "Номер карты или договора.",
+                "moneyMin": 10,
+                "moneyMax": 15000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": []
+            },
+            {
+                "id": "FORWARD",
+                "name": "Форвард Мобайл",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/forward.png",
+                "url": "http://www.forwardmobile.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 15&nbsp;000&nbsp;р.<br>За месяц по одному и тому же номеру карты или номеру договора: до 20 платежей не&nbsp;более 150&nbsp;000&nbsp;р. в&nbsp;сумме через все точки: Comepay, CyberPlat, Форвард Мобайл, ЦУП",
+                "pointType": "Платежные терминалы и&nbsp;кассы",
+                "externalPartnerId": "103",
+                "description": "Номер карты, телефона или договора, паспорт гражданина&nbsp;РФ.<br>Сообщите&nbsp;кассиру, что хотите пополнить счет в&nbsp;Тинькофф&nbsp;Банке.",
+                "moneyMin": 10,
+                "moneyMax": 15000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 150000
+                    }
+                ]
+            },
+            {
+                "id": "POCHTA_BANK",
+                "name": "Почта Банк",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/pochtabank.png",
+                "url": "https://www.pochtabank.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "Моментально. В&nbsp;редких случаях — до&nbsp;1&nbsp;рабочего&nbsp;дня.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 15&nbsp;000&nbsp;р.<br>За месяц по одному и тому же номеру карты или номеру договора: до 50 платежей не более 300&nbsp;000&nbsp;р. в&nbsp;сумме через все банкоматы Почта&nbsp;Банка",
+                "pointType": "Банкоматы",
+                "externalPartnerId": "103",
+                "description": "Номер карты или договора.",
+                "moneyMin": 10,
+                "moneyMax": 15000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 10,
+                        "max": 15000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "amount": 150000
+                    }
+                ]
+            },
+            {
+                "id": "POST",
+                "name": "Почта России",
+                "picture": "https://omegabank.mock-object.redmadserver.com/static/images/post.png",
+                "url": "http://www.russianpost.ru/",
+                "hasLocations": true,
+                "isMomentary": false,
+                "depositionDuration": "До 3 рабочих дней.<br>Сохраняйте&nbsp;чек, пока деньги не&nbsp;поступят на&nbsp;счет.",
+                "limitations": "За один раз: 500&nbsp;000&nbsp;р.",
+                "pointType": "Отделения Почты России",
+                "externalPartnerId": "402",
+                "description": "При себе необходимо иметь паспорт. При наличии распечатанной квитанции, полученной по e-mail, необходимо указать сумму перевода и данные предъявленного документа, удостоверяющего личность.<br>При отсутствии квитанции необходимо взять на почте квитанцию на почтовый перевод (электронный).<br>В графу «Куда» внести 106000 (индекс) Федеральный клиент АО «Тинькофф Банк».<br>В графу «Кому» внести АО «Тинькофф Банк».<br>В графу «От кого» внести ФИО плательщика (полностью).<br>В графу «Адрес» внести Адрес плательщика.<br>В графу «Сообщение» внести уникальный номер сообщения, который необходимо уточнить, позвонив в Банк.",
+                "moneyMin": 1,
+                "moneyMax": 500000,
+                "hasPreferentialDeposition": false,
+                "limits": [
+                    {
+                        "currency": {
+                            "code": 643,
+                            "name": "RUB",
+                            "strCode": "643"
+                        },
+                        "min": 1,
+                        "max": 500000
+                    },
+                    {
+                        "currency": {
+                            "code": 840,
+                            "name": "USD",
+                            "strCode": "840"
+                        },
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "currency": {
+                            "code": 978,
+                            "name": "EUR",
+                            "strCode": "978"
+                        },
+                        "min": 0,
+                        "max": 0
+                    }
+                ],
+                "dailyLimits": []
+            }
+        ]
+    }
+}
