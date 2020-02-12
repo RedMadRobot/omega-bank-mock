@@ -1,0 +1,7 @@
+variables:
+  DOMAIN: omegabank
+
+deploy:
+  script: deploymock $DOMAIN
+  tags:
+    - deploy-mock-object
