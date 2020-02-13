@@ -20,18 +20,20 @@ POST /auth/sms/send-code
 ```
 <details>
 <summary>Подробнее...</summary>
+
 Запрос:
 ```json
 {
     "phone_number": "79991112233"
 }
 ```
+
 Ответ:
 ```json
 {
     "data": {
         "retry_interval": 60
-     }
+    }
 }
 ```
 </details>  
@@ -42,6 +44,7 @@ POST /auth/sms/check-code
 ```
 <details>
 <summary>Подробнее...</summary>
+
 Запрос:
 ```json
 {
@@ -68,6 +71,7 @@ GET /auth/profile
 ```
 <details>
 <summary>Подробнее...</summary>
+
 Ответ:
 ```json
 {
@@ -91,6 +95,7 @@ GET /deposition-points
 ```
 <details>
 <summary>Подробнее...</summary>
+
 Ответ:
 ```json
 {
@@ -119,6 +124,7 @@ GET /deposition-partners
 ```
 <details>
 <summary>Подробнее...</summary>
+
 Ответ:
 ```json
 {
