@@ -171,4 +171,171 @@ GET /deposition-partners
     }
 }
 ```
-</details>  
+</details>
+
+### Получить информацию о картах
+```
+GET /cards
+```
+<details>
+<summary>Подробнее...</summary>
+
+Ответ:
+```json
+{
+    "data": {
+        "cards": [
+            {
+                "id": 1,
+                "name": "Visa Classic",
+                "number": "NDSL RA01 203 4455 12",
+                "value": 1233
+            },
+            {
+                "id": 2,
+                "name": "Visa Classic",
+                "number": "NDSL RA01 203 4455 13",
+                "value": 5234
+            },
+            {
+                "id": 3,
+                "name": "Visa Gold",
+                "number": "NDSL RA01 203 4455 14",
+                "value": 6225
+            },
+            {
+                "id": 4,
+                "name": "Visa Platinum",
+                "number": "NDSL RA01 203 4455 15",
+                "value": 8885
+            }
+        ]
+    }
+}
+```
+</details>
+
+### Зарегистрировать новую карту
+```
+POST /cards
+```
+<details>
+<summary>Подробнее...</summary>
+
+Доступные типы:
+* classic
+* gold
+* platinum
+
+Запрос:
+```json
+{
+    "type": "classic"
+}
+```
+
+Ответ:
+```json
+{
+    "data": {
+        "card": {
+            "id": 5,
+            "name": "Visa Gold",
+            "number": "NDSL RA01 203 4455 16",
+            "value": 1117
+        }
+    }
+}
+```
+
+Curl пример:
+```
+curl -d '{"type":"classic"}' -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/api/v1/cards
+```
+</details>
+
+### Получить информацию о счетах
+```
+GET /deposits
+```
+<details>
+<summary>Подробнее...</summary>
+
+Ответ:
+```json
+{
+    "data": {
+        "deposits": [
+            {
+                "id": 5,
+                "name": "Platinum",
+                "number": "NDSL RA01 203 4455 01",
+                "value": 30234
+            },
+            {
+                "id": 6,
+                "name": "Package",
+                "number": "NDSL RA01 203 4455 02",
+                "value": 12976
+            },
+            {
+                "id": 7,
+                "name": "Elite",
+                "number": "NDSL RA01 203 4455 03",
+                "value": 51234
+            },
+            {
+                "id": 8,
+                "name": "Platinum",
+                "number": "NDSL RA01 203 4455 04",
+                "value": 73417
+            }
+        ]
+    }
+}
+```
+Curl пример:
+```
+curl http://127.0.0.1:5000/api/v1/deposits
+```
+</details>
+
+### Открыть новый счет
+```
+POST /deposits
+```
+<details>
+<summary>Подробнее...</summary>
+
+Доступные типы:
+* package
+* platinum
+* elite
+
+Запрос:
+```json
+{
+    "type": "package"
+}
+```
+
+Ответ:
+```json
+{
+    "data": {
+        "deposit": {
+            "id": 9,
+            "name": "Platinum",
+            "number": "NDSL RA01 203 4455 05",
+            "value": 11117
+        }
+    }
+}
+```
+
+Curl пример:
+```
+curl -d '{"type":"package"}' -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/api/v1/deposits
+```
+
+</details>
