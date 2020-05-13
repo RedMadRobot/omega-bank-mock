@@ -173,6 +173,8 @@ GET /deposition-partners
 ```
 </details>
 
+## Получение списков банковских продуктов
+
 ### Получить информацию о картах
 ```
 GET /cards
@@ -213,44 +215,10 @@ GET /cards
     }
 }
 ```
-</details>
-
-### Зарегистрировать новую карту
-```
-POST /cards
-```
-<details>
-<summary>Подробнее...</summary>
-
-Доступные типы:
-* classic
-* gold
-* platinum
-
-Запрос:
-```json
-{
-    "type": "classic"
-}
-```
-
-Ответ:
-```json
-{
-    "data": {
-        "card": {
-            "id": 5,
-            "name": "Visa Gold",
-            "number": "NDSL RA01 203 4455 16",
-            "value": 1117
-        }
-    }
-}
-```
 
 Curl пример:
 ```
-curl -d '{"type":"classic"}' -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/api/v1/cards
+curl http://127.0.0.1:5000/api/v1/cards
 ```
 </details>
 
@@ -294,9 +262,73 @@ GET /deposits
     }
 }
 ```
+
 Curl пример:
 ```
 curl http://127.0.0.1:5000/api/v1/deposits
+```
+</details>
+
+## Регистрация новых банковских продуктов
+### Зарегистрировать новую карту
+```
+POST /cards
+```
+<details>
+<summary>Подробнее...</summary>
+
+Получить список всех типов карт можно [тут](#получение-списка-всех-типов-карт)
+
+Запрос:
+```json
+{
+    "type": "classic"
+}
+```
+
+Ответ:
+```json
+{
+    "data": {
+        "card": {
+            "id": 5,
+            "name": "Visa Gold",
+            "number": "NDSL RA01 203 4455 16",
+            "value": 1117
+        }
+    }
+}
+```
+
+Curl пример:
+```
+curl -d '{"type":"classic"}' -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/api/v1/cards
+```
+</details>
+
+### Получение списка всех типов карт
+```
+POST /card-types
+```
+<details>
+<summary>Подробнее...</summary>
+
+Ответ:
+```json
+{
+    "data": {
+        "types": [
+            "classic",
+            "gold",
+            "platinum"
+        ]
+    }
+}
+```
+
+Curl пример:
+```
+curl http://127.0.0.1:5000/api/v1/card-types
 ```
 </details>
 
@@ -307,10 +339,7 @@ POST /deposits
 <details>
 <summary>Подробнее...</summary>
 
-Доступные типы:
-* package
-* platinum
-* elite
+Получить список всех типов счетов можно [тут](#получение-списка-всех-типов-счетов)
 
 Запрос:
 ```json
@@ -337,5 +366,30 @@ Curl пример:
 ```
 curl -d '{"type":"package"}' -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/api/v1/deposits
 ```
+</details>
 
+### Получение списка всех типов счетов
+```
+POST /deposit-types
+```
+<details>
+<summary>Подробнее...</summary>
+
+Ответ:
+```json
+{
+    "data": {
+        "types": [
+            "package",
+            "platinum",
+            "elite"
+        ]
+    }
+}
+```
+
+Curl пример:
+```
+curl http://127.0.0.1:5000/api/v1/deposit-types
+```
 </details>
