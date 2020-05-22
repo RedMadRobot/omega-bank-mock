@@ -40,9 +40,11 @@ elif method == "POST":
             self.value = value
     
     deposit_types = {
-        "package": Deposit("Package", "NDSL RA01 203 4455 05", 10000),
-        "platinum": Deposit("Platinum", "NDSL RA01 203 4455 06", 20000),
-        "elite": Deposit("Elite", "NDSL RA01 203 4455 07", 30000)
+        "package": Deposit("Package", "NDSL RA01 203 4455 05", 25),
+        "platinum": Deposit("Platinum", "NDSL RA01 203 4455 06", 25),
+        "elite": Deposit("Elite", "NDSL RA01 203 4455 07", 100),
+        "standard": Deposit("Standard", "NDSL RA01 203 4455 08", 25),
+        "retirement": Deposit("Retirement", "NDSL RA01 203 4455 08", 100)
     }
 
     deposit_type = body_parameters.get("type", "Unsupported Type")

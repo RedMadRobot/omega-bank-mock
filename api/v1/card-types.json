@@ -1,9 +1,72 @@
 {
     "data": {
         "types": [
-            "classic",
-            "gold",
-            "platinum"
+            {
+                "code": "classic",
+                "name": "Classic",
+                "about": [
+                    {
+                        "caption": "INTRO PURCHASE APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "REGULAR PURCHASE APR",
+                        "value": "15.99%-22.99% Variable"
+                    },
+                    {
+                        "caption": "INTRO BALANCE TRANSFER APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "ANNUAL FEE",
+                        "value": "$95"
+                    }
+                ]
+            },
+            {
+                "code": "gold",
+                "name": "Gold",
+                "about": [
+                    {
+                        "caption": "INTRO PURCHASE APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "REGULAR PURCHASE APR",
+                        "value": "17.99%-23.99% Variable"
+                    },
+                    {
+                        "caption": "INTRO BALANCE TRANSFER APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "ANNUAL FEE",
+                        "value": "$0-$99"
+                    }
+                ]
+            },
+            {
+                "code": "platinum",
+                "name": "Platinum",
+                "about": [
+                    {
+                        "caption": "INTRO PURCHASE APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "REGULAR PURCHASE APR",
+                        "value": "19.99%-25.99% Variable"
+                    },
+                    {
+                        "caption": "INTRO BALANCE TRANSFER APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "ANNUAL FEE",
+                        "value": "$0-$99"
+                    }
+                ]
+            }
         ]
     }
 }

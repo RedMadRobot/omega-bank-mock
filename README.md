@@ -308,7 +308,7 @@ curl -d '{"type":"classic"}' -H "Content-Type: application/json" -X POST http://
 
 ### Получение списка всех типов карт
 ```
-POST /card-types
+GET /card-types
 ```
 <details>
 <summary>Подробнее...</summary>
@@ -318,9 +318,72 @@ POST /card-types
 {
     "data": {
         "types": [
-            "classic",
-            "gold",
-            "platinum"
+            {
+                "code": "classic",
+                "name": "Classic",
+                "about": [
+                    {
+                        "caption": "INTRO PURCHASE APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "REGULAR PURCHASE APR",
+                        "value": "15.99%-22.99% Variable"
+                    },
+                    {
+                        "caption": "INTRO BALANCE TRANSFER APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "ANNUAL FEE",
+                        "value": "$95"
+                    }
+                ]
+            },
+            {
+                "code": "gold",
+                "name": "Gold",
+                "about": [
+                    {
+                        "caption": "INTRO PURCHASE APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "REGULAR PURCHASE APR",
+                        "value": "17.99%-23.99% Variable"
+                    },
+                    {
+                        "caption": "INTRO BALANCE TRANSFER APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "ANNUAL FEE",
+                        "value": "$0-$99"
+                    }
+                ]
+            },
+            {
+                "code": "platinum",
+                "name": "Platinum",
+                "about": [
+                    {
+                        "caption": "INTRO PURCHASE APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "REGULAR PURCHASE APR",
+                        "value": "19.99%-25.99% Variable"
+                    },
+                    {
+                        "caption": "INTRO BALANCE TRANSFER APR",
+                        "value": "N/A"
+                    },
+                    {
+                        "caption": "ANNUAL FEE",
+                        "value": "$0-$99"
+                    }
+                ]
+            }
         ]
     }
 }
@@ -356,7 +419,7 @@ POST /deposits
             "id": 9,
             "name": "Platinum",
             "number": "NDSL RA01 203 4455 05",
-            "value": 11117
+            "value": 25
         }
     }
 }
@@ -370,7 +433,7 @@ curl -d '{"type":"package"}' -H "Content-Type: application/json" -X POST http://
 
 ### Получение списка всех типов счетов
 ```
-POST /deposit-types
+GET /deposit-types
 ```
 <details>
 <summary>Подробнее...</summary>
@@ -380,9 +443,81 @@ POST /deposit-types
 {
     "data": {
         "types": [
-            "package",
-            "platinum",
-            "elite"
+            {
+                "code": "platinum",
+                "name": "Platinum",
+                "description": "Exclusive savings account for our Platinum Checking Package customers",
+                "about": [
+                    {
+                        "caption": "MONTHLY MAINTENANCE FEE",
+                        "value": "$0"
+                    },
+                    {
+                        "caption": "MINIMUM OPENING DEPOSIT",
+                        "value": "$25"
+                    }
+                ]
+            },
+            {
+                "code": "package",
+                "name": "Package Money Market Savings",
+                "description": "Competitive savings account rates only for Gold Checking Package customers",
+                "about": [
+                    {
+                        "caption": "MONTHLY MAINTENANCE FEE",
+                        "value": "$0"
+                    },
+                    {
+                        "caption": "MINIMUM OPENING DEPOSIT",
+                        "value": "$25"
+                    }
+                ]
+            },
+            {
+                "code": "elite",
+                "name": "Elite Money Market Account",
+                "description": "Earn more interest on high balance accounts",
+                "about": [
+                    {
+                        "caption": "MONTHLY MAINTENANCE FEE",
+                        "value": "$10"
+                    },
+                    {
+                        "caption": "MINIMUM OPENING DEPOSIT",
+                        "value": "$100"
+                    }
+                ]
+            },
+            {
+                "code": "standard",
+                "name": "Standard Savings Account",
+                "description": "Basic savings ideal for low balances and first-time savers",
+                "about": [
+                    {
+                        "caption": "MONTHLY MAINTENANCE FEE",
+                        "value": "$4"
+                    },
+                    {
+                        "caption": "MINIMUM OPENING DEPOSIT",
+                        "value": "$25"
+                    }
+                ]
+            },
+            {
+                "code": "retirement",
+                "name": "Retirement Money Market",
+                "description": "An easy way to diversify your U.S. Bank portfolio with valuable tax advantages",
+                "about": [
+                    {
+                        "caption": "MONTHLY MAINTENANCE FEE",
+                        "value": "$0"
+                    },
+                    {
+                        "caption": "MINIMUM OPENING DEPOSIT",
+                        "value": "$100"
+                    }
+                ]
+            }
         ]
     }
 }
