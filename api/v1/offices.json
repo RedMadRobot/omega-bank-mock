@@ -3,14 +3,76 @@
         "offices": [
             {
                 "id": 1,
-                "name": "У Володи",
-                "address": "г Москва, ул Академика Зелинского, дом 6",
+                "name": "RMR WeWork",
+                "address": "Москва, Ленинградский проспект, 37А, к4",
                 "location": {
-                    "latitude": 55.705102,
-                    "longitude": 37.572279
+                    "latitude": 55.791714,
+                    "longitude": 37.542329
                 },
-                "workHours": "ПН-ВС, Круглосуточно",
-                "phones": "+7(800)200-23-16"
+                "workHours": "ПН-ПТ, С 10 до 18",
+                "phones": "+7(495)933-05-95"
+            },
+            {
+                "id": 2,
+                "name": "RMR SPB",
+                "address": "Санкт-Петерубург, пр. Медиков, д.3, лит А, м. Петроградская",
+                "location": {
+                    "latitude": 59.969232,
+                    "longitude": 30.316281
+                },
+                "workHours": "ПН-ПТ, С 10 до 18",
+                "phones": "+7(495)695-41-46"
+            },
+            {
+                "id": 3,
+                "name": "RMR SMR",
+                "address": "Самара, проспект Карла Маркса, 201Б",
+                "location": {
+                    "latitude": 53.213342,
+                    "longitude": 50.187590
+                },
+                "workHours": "ПН-ПТ, С 10 до 18",
+                "phones": "+7(909)678-70-95"
+            },
+            {
+                "id": 4,
+                "name": "RMR TLT",
+                "address": "Тольятти, ул. Тополиная, 16",
+                "location": {
+                    "latitude": 53.543866,
+                    "longitude": 49.345078
+                },
+                "workHours": "ПН-ПТ, С 10 до 18"
+            },
+            {
+                "id": 5,
+                "name": "RMR INNO",
+                "address": "Иннополис, Университетская улица, 7",
+                "location": {
+                    "latitude": 55.751872,
+                    "longitude": 48.752936
+                },
+                "workHours": "ПН-ПТ, С 10 до 18"
+            },
+            {
+                "id": 6,
+                "name": "RMR MSK 2",
+                "address": "Москва, улица Пресненский Вал, 27с9",
+                "location": {
+                    "latitude": 55.772153,
+                    "longitude": 37.569539
+                },
+                "workHours": "Closed"
+            },
+            {
+                "id": 7,
+                "name": "RMR MSK 1",
+                "address": "Москва, Спартаковский пер., 2, стр. 1",
+                "location": {
+                    "latitude": 55.778487,
+                    "longitude": 37.569539
+                },
+                "workHours": "Closed"
             }
         ]
     }
